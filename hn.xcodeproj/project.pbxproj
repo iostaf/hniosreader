@@ -842,6 +842,7 @@
 					"$(PROJECT_DIR)/hn",
 					"$(PROJECT_DIR)",
 				);
+				GCC_GENERATE_TEST_COVERAGE_FILES = YES;
 				INFOPLIST_FILE = hn/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -864,6 +865,7 @@
 					"$(PROJECT_DIR)/hn",
 					"$(PROJECT_DIR)",
 				);
+				GCC_GENERATE_TEST_COVERAGE_FILES = YES;
 				INFOPLIST_FILE = hn/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

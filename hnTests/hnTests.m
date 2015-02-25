@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import <XCTest/XCTest.h>
+#import "Utils.h"
 
 @interface hnTests : XCTestCase
 
@@ -27,6 +28,13 @@
 
 - (void)testExample {
     // This is an example of a functional test case.
+    XCTAssert(YES, @"Pass");
+}
+
+- (void)testNewSample {
+    NSString *htmlString = @"<p>Paragraph</p>";
+    NSAttributedString *attributedString = [Utils convertHTMLToAttributedString:htmlString];
+    XCTAssertNotNil(attributedString, @"Should not be empty.");
     XCTAssert(YES, @"Pass");
 }
 
